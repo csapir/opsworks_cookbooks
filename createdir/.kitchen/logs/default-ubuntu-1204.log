@@ -1,0 +1,78 @@
+I, [2015-02-03T11:06:43.452794 #4628]  INFO -- default-ubuntu-1204: -----> Creating <default-ubuntu-1204>...
+I, [2015-02-03T11:06:44.602386 #4628]  INFO -- default-ubuntu-1204: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2015-02-03T11:06:44.927928 #4628]  INFO -- default-ubuntu-1204: ==> default: Importing base box 'opscode-ubuntu-12.04'...
+I, [2015-02-03T11:06:53.999608 #4628]  INFO -- default-ubuntu-1204: [KProgress: 10%[KProgress: 20%[KProgress: 40%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2015-02-03T11:06:54.646350 #4628]  INFO -- default-ubuntu-1204: ==> default: Setting the name of the VM: default-ubuntu-1204_default_1422979614606_38415
+I, [2015-02-03T11:06:55.034394 #4628]  INFO -- default-ubuntu-1204: ==> default: Clearing any previously set network interfaces...
+I, [2015-02-03T11:06:55.077696 #4628]  INFO -- default-ubuntu-1204: ==> default: Preparing network interfaces based on configuration...
+I, [2015-02-03T11:06:55.078116 #4628]  INFO -- default-ubuntu-1204:     default: Adapter 1: nat
+I, [2015-02-03T11:06:55.126265 #4628]  INFO -- default-ubuntu-1204: ==> default: Forwarding ports...
+I, [2015-02-03T11:06:55.197463 #4628]  INFO -- default-ubuntu-1204:     default: 22 => 2222 (adapter 1)
+I, [2015-02-03T11:06:55.327567 #4628]  INFO -- default-ubuntu-1204: ==> default: Booting VM...
+I, [2015-02-03T11:06:55.565143 #4628]  INFO -- default-ubuntu-1204: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2015-02-03T11:06:55.898770 #4628]  INFO -- default-ubuntu-1204:     default: SSH address: 127.0.0.1:2222
+I, [2015-02-03T11:06:55.899004 #4628]  INFO -- default-ubuntu-1204:     default: SSH username: vagrant
+I, [2015-02-03T11:06:55.899261 #4628]  INFO -- default-ubuntu-1204:     default: SSH auth method: private key
+I, [2015-02-03T11:07:11.056876 #4628]  INFO -- default-ubuntu-1204:     default: Warning: Connection timeout. Retrying...
+I, [2015-02-03T11:07:11.465748 #4628]  INFO -- default-ubuntu-1204:     default: 
+I, [2015-02-03T11:07:11.465826 #4628]  INFO -- default-ubuntu-1204:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2015-02-03T11:07:11.465861 #4628]  INFO -- default-ubuntu-1204:     default: this with a newly generated keypair for better security.
+I, [2015-02-03T11:07:11.806652 #4628]  INFO -- default-ubuntu-1204:     default: 
+I, [2015-02-03T11:07:11.806730 #4628]  INFO -- default-ubuntu-1204:     default: Inserting generated public key within guest...
+I, [2015-02-03T11:07:11.886628 #4628]  INFO -- default-ubuntu-1204:     default: Removing insecure key from the guest if its present...
+I, [2015-02-03T11:07:11.928287 #4628]  INFO -- default-ubuntu-1204:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2015-02-03T11:07:12.603551 #4628]  INFO -- default-ubuntu-1204: ==> default: Machine booted and ready!
+I, [2015-02-03T11:07:12.604171 #4628]  INFO -- default-ubuntu-1204: ==> default: Checking for guest additions in VM...
+I, [2015-02-03T11:07:12.644863 #4628]  INFO -- default-ubuntu-1204: ==> default: Setting hostname...
+I, [2015-02-03T11:07:15.124245 #4628]  INFO -- default-ubuntu-1204: ==> default: Machine not provisioning because `--no-provision` is specified.
+I, [2015-02-03T11:07:16.867550 #4628]  INFO -- default-ubuntu-1204: Vagrant instance <default-ubuntu-1204> created.
+I, [2015-02-03T11:07:16.871192 #4628]  INFO -- default-ubuntu-1204: Finished creating <default-ubuntu-1204> (0m33.41s).
+I, [2015-02-03T11:07:16.871331 #4628]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2015-02-03T11:07:16.872236 #4628]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2015-02-03T11:07:16.872320 #4628]  INFO -- default-ubuntu-1204: Preparing dna.json
+I, [2015-02-03T11:07:16.872830 #4628]  INFO -- default-ubuntu-1204: Preparing current project directory as a cookbook
+I, [2015-02-03T11:07:16.874398 #4628]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2015-02-03T11:07:16.875598 #4628]  INFO -- default-ubuntu-1204: Preparing solo.rb
+I, [2015-02-03T11:07:16.924755 #4628]  INFO -- default-ubuntu-1204: -----> Installing Chef Omnibus (install only if missing)
+I, [2015-02-03T11:07:16.924844 #4628]  INFO -- default-ubuntu-1204: downloading https://www.chef.io/chef/install.sh
+I, [2015-02-03T11:07:16.924896 #4628]  INFO -- default-ubuntu-1204:   to file /tmp/install.sh
+I, [2015-02-03T11:07:16.924937 #4628]  INFO -- default-ubuntu-1204: trying wget...
+I, [2015-02-03T11:07:17.510977 #4628]  INFO -- default-ubuntu-1204: Downloading Chef  for ubuntu...
+I, [2015-02-03T11:07:17.511500 #4628]  INFO -- default-ubuntu-1204: downloading https://www.chef.io/chef/metadata?v=&prerelease=false&nightlies=false&p=ubuntu&pv=12.04&m=x86_64
+I, [2015-02-03T11:07:17.511874 #4628]  INFO -- default-ubuntu-1204:   to file /tmp/install.sh.1216/metadata.txt
+I, [2015-02-03T11:07:17.512346 #4628]  INFO -- default-ubuntu-1204: trying wget...
+I, [2015-02-03T11:07:17.650978 #4628]  INFO -- default-ubuntu-1204: url	https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chef_12.0.3-1_amd64.deb
+I, [2015-02-03T11:07:17.651693 #4628]  INFO -- default-ubuntu-1204: md5	e849cf61d3e3fd37224c11f9902aa536
+I, [2015-02-03T11:07:17.652315 #4628]  INFO -- default-ubuntu-1204: sha256	a8e9c78cc9b9a17a32b9b4ae1650b8b6454b4f0abd611048d099a659ca5de28f
+I, [2015-02-03T11:07:17.655518 #4628]  INFO -- default-ubuntu-1204: downloaded metadata file looks valid...
+I, [2015-02-03T11:07:17.662842 #4628]  INFO -- default-ubuntu-1204: downloading https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chef_12.0.3-1_amd64.deb
+I, [2015-02-03T11:07:17.663298 #4628]  INFO -- default-ubuntu-1204:   to file /tmp/install.sh.1216/chef_12.0.3-1_amd64.deb
+I, [2015-02-03T11:07:17.663613 #4628]  INFO -- default-ubuntu-1204: trying wget...
+I, [2015-02-03T11:07:28.667378 #4628]  INFO -- default-ubuntu-1204: Comparing checksum with sha256sum...
+I, [2015-02-03T11:07:28.891554 #4628]  INFO -- default-ubuntu-1204: Installing Chef 
+I, [2015-02-03T11:07:28.891807 #4628]  INFO -- default-ubuntu-1204: installing with dpkg...
+I, [2015-02-03T11:07:28.941549 #4628]  INFO -- default-ubuntu-1204: Selecting previously unselected package chef.
+I, [2015-02-03T11:07:29.080192 #4628]  INFO -- default-ubuntu-1204: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56035 files and directories currently installed.)
+I, [2015-02-03T11:07:29.082702 #4628]  INFO -- default-ubuntu-1204: Unpacking chef (from .../chef_12.0.3-1_amd64.deb) ...
+I, [2015-02-03T11:07:34.132548 #4628]  INFO -- default-ubuntu-1204: Setting up chef (12.0.3-1) ...
+I, [2015-02-03T11:07:34.210190 #4628]  INFO -- default-ubuntu-1204: Thank you for installing Chef!
+I, [2015-02-03T11:07:34.256925 #4628]  INFO -- default-ubuntu-1204: Transferring files to <default-ubuntu-1204>
+I, [2015-02-03T11:07:35.071343 #4628]  INFO -- default-ubuntu-1204: Starting Chef Client, version 12.0.3
+I, [2015-02-03T11:07:36.378064 #4628]  INFO -- default-ubuntu-1204: Compiling Cookbooks...
+I, [2015-02-03T11:07:36.379817 #4628]  INFO -- default-ubuntu-1204: Converging 1 resources
+I, [2015-02-03T11:07:36.380503 #4628]  INFO -- default-ubuntu-1204: Recipe: createdir::default
+I, [2015-02-03T11:07:36.382489 #4628]  INFO -- default-ubuntu-1204:   * directory[/srv/www/] action create
+I, [2015-02-03T11:07:36.383996 #4628]  INFO -- default-ubuntu-1204:     - create new directory /srv/www/
+I, [2015-02-03T11:07:36.384474 #4628]  INFO -- default-ubuntu-1204:     - change mode from '' to '0755'
+I, [2015-02-03T11:07:36.385239 #4628]  INFO -- default-ubuntu-1204:     - change owner from '' to 'root'
+I, [2015-02-03T11:07:36.386869 #4628]  INFO -- default-ubuntu-1204:     - change group from '' to 'root'
+I, [2015-02-03T11:07:36.387680 #4628]  INFO -- default-ubuntu-1204: 
+I, [2015-02-03T11:07:36.388012 #4628]  INFO -- default-ubuntu-1204: Running handlers:
+I, [2015-02-03T11:07:36.388574 #4628]  INFO -- default-ubuntu-1204: Running handlers complete
+I, [2015-02-03T11:07:36.388989 #4628]  INFO -- default-ubuntu-1204: Chef Client finished, 1/1 resources updated in 1.325187915 seconds
+I, [2015-02-03T11:07:36.483409 #4628]  INFO -- default-ubuntu-1204: Finished converging <default-ubuntu-1204> (0m19.61s).
+I, [2015-02-03T11:11:11.367022 #4853]  INFO -- default-ubuntu-1204: -----> Destroying <default-ubuntu-1204>...
+I, [2015-02-03T11:11:13.602009 #4853]  INFO -- default-ubuntu-1204: ==> default: Forcing shutdown of VM...
+I, [2015-02-03T11:11:14.724028 #4853]  INFO -- default-ubuntu-1204: ==> default: Destroying VM and associated drives...
+I, [2015-02-03T11:11:14.950599 #4853]  INFO -- default-ubuntu-1204: Vagrant instance <default-ubuntu-1204> destroyed.
+I, [2015-02-03T11:11:14.953819 #4853]  INFO -- default-ubuntu-1204: Finished destroying <default-ubuntu-1204> (0m3.58s).
